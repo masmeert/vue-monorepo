@@ -1,0 +1,12 @@
+{
+  "name": "pebbles",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Massimo Meert <massimo@adimian.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
