@@ -1,5 +1,5 @@
 <template>
-  <button @click="handleClick">Click Me</button>
+  <button @click="handleClick">{{ label }}</button>
 </template>
 
 <script lang="ts">
@@ -11,6 +11,9 @@ async function handleClick() {
 
 export default defineComponent({
   name: "Button",
+  props: {
+    label: String,
+  },
   setup() {
     return {
       handleClick,

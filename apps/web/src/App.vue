@@ -3,5 +3,5 @@ import { Button } from "ui";
 </script>
 
 <template>
-  <Button />
+  <Button label="click me" />
 </template>
